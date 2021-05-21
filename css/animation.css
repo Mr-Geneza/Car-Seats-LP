@@ -1,0 +1,85 @@
+.animated {
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.block123 {
+	opacity: 0;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+@keyframes fadeIn
+{
+0%   {opacity: 0;}
+100% {opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn
+{
+0%   {opacity: 0;}
+100% {opacity: 1;}
+}
+
+.animated.c4 .block123 {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+	-webkit-animation-duration: .9s;
+	animation-duration: .9s;
+}
+
+.c11 ul li.block:before {
+	opacity: 0;
+	left: -30px;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+@keyframes list
+{
+0%   {opacity: 0; left: -30px;}
+100% {opacity: 1; left: -70px;}
+}
+
+@-webkit-keyframes list
+{
+0%   {opacity: 0; left: -30px;}
+100% {opacity: 1; left: -70px;}
+}
+
+.c11.animated ul li.block:before {
+	-webkit-animation-name: list;
+	animation-name: list;
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+}
+
+.c11.animated ul li.block.block2:before {
+	-webkit-animation-delay: .2s;
+	animation-delay: .2s;
+}
+
+.c11.animated ul li.block.block3:before {
+	-webkit-animation-delay: .4s;
+	animation-delay: .4s;
+}
+
+.c11.animated ul li.block.block4:before {
+	-webkit-animation-delay: .6s;
+	animation-delay: .6s;
+}
+
+.c11.animated ul li.block.block5:before {
+	-webkit-animation-delay: .8s;
+	animation-delay: .8s;
+}
+
+.c11.animated ul li.block.block6:before {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+.c11.animated ul li.block.block8:before {
+	-webkit-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
